@@ -11488,7 +11488,7 @@ section{
   text-align: center;
 }
 
-.proyect-banco, .proyect-challangeAlkemy, .proyect-astillas, .proyect-barberShop{
+.proyect-banco, .proyect-challangeAlkemy, .proyect-Cinyema{
   flex-wrap: wrap;
   min-width: 300px;
  background-repeat: no-repeat;
@@ -11504,12 +11504,12 @@ section{
 .proyect-challangeAlkemy{
   background-image: url("../assets/img/disney.jpg");
 }
-.proyect-astillas{
-  background-image: url("../assets/img/imagen2.jpg");
+.proyect-Cinyema{
+  background-image: url("../assets/img/Sala_de_cine.jpg");
 }
 
-.proyect-barberShop{
-  background: linear-gradient(45deg,blue, white 50%, red);
+.proyect-banco{
+  background-image: url("../assets/img/istockphoto-156873629-612x612.jpg");
 }
 .proyect-container div{
   background-color: rgba(0, 0, 0, 0.6);
@@ -11517,30 +11517,12 @@ section{
   border-radius: 10px;
 
 }
-.proyect-barberShop div{
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px;
-  border-radius: 10px;
-}
-.proyect-banco div{
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px;
-  border-radius: 10px;
-}
 
-.proyect-banco{
-   background-color: #0d6efd;
-   background-repeat: no-repeat;
-  }
 .proyect-container h5{
   color: whitesmoke;
 }
 
-.container-barbershop h5{
-  color: whitesmoke;
-}
-
-.proyect-container, .container-barbershop{
+.proyect-container{
   background-position: center ;
   display: flex;
   justify-content: space-around;
@@ -11577,13 +11559,13 @@ body{
  
  
 @media (max-width: 790px){
-  .proyect-container, .container-barbershop{
+  .proyect-container{
     flex-direction: column;
     text-align: center;
     align-items: center;
     align-content: center;
   }
-  .proyect-banco, .proyect-challangeAlkemy, .proyect-astillas, .proyect-barberShop{
+  .proyect-banco, .proyect-challangeAlkemy, .proyect-Cinyema {
       padding: 20px;
       width: 90%;
   }
@@ -11610,7 +11592,7 @@ body{
   ul{
     list-style: none;
   }
-.proyect-banco, .proyect-challangeAlkemy, .proyect-astillas, .proyect-barberShop{
+.proyect-banco, .proyect-challangeAlkemy, .proyect-Cinyema{
   width: 92%;
   min-width: 355px;
   }
@@ -11652,7 +11634,7 @@ body{
 .mb-4 {
  animation:  slidein 3s linear infinite ;
 }
- .proyect-astillas, .proyect-challangeAlkemy{
+ .proyect-Cinyema, .proyect-challangeAlkemy{
   animation-name: scrolling;
   animation-duration:  2s;
  
