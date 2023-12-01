@@ -654,6 +654,10 @@ progress {
   width: 8rem;
   height: 3rem;
 }
+.skill-imageS{
+  width: 8rem;
+  height: 5rem;
+}
 .dev-icons{
   text-align: center;
   padding-top: 20px;
