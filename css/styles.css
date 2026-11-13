@@ -642,6 +642,11 @@ progress {
   margin-left: auto;
 }
 
+.list-inline dev-icons {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
 .skill-image{
   width: 5rem;
   height: 5rem;
@@ -11643,9 +11648,6 @@ body{
   }
 }
 
-.mb-4 {
- animation:  slidein 3s linear infinite ;
-}
  .proyect-Cinyema, .proyect-challangeAlkemy{
   animation-name: scrolling;
   animation-duration:  2s;
